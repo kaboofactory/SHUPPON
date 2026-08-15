@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "suiteName": "Standard rules smoke 20 games",
+  "scenarios": [
+    {
+      "name": "Standard D5 P1Start 10",
+      "board": [
+        "ooosooo.",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        ".OOOSOOO"
+      ],
+      "currentPlayer": "P1",
+      "settings": {
+        "games": 10,
+        "p1Depth": 5,
+        "p2Depth": 5,
+        "perMoveTimeMilliseconds": 0,
+        "perMoveNodeLimit": 0,
+        "parallelism": 8,
+        "searchParallelism": 1,
+        "progressIntervalMilliseconds": 2000,
+        "maxPlies": 300,
+        "openingRandomPlies": 4,
+        "openingTopK": 3,
+        "openingScoreWindow": 120,
+        "cycleBreakScoreWindow": 10,
+        "seed": 12345,
+        "saveMoveSequences": true
+      },
+      "p1Strategy": {
+        "mode": "Free",
+        "deviationBudget": 0
+      },
+      "p2Strategy": {
+        "mode": "Free",
+        "deviationBudget": 0
+      }
+    },
+    {
+      "name": "Standard D5 P2Start 10",
+      "board": [
+        "ooosooo.",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        "........",
+        ".OOOSOOO"
+      ],
+      "currentPlayer": "P2",
+      "settings": {
+        "games": 10,
+        "p1Depth": 5,
+        "p2Depth": 5,
+        "perMoveTimeMilliseconds": 0,
+        "perMoveNodeLimit": 0,
+        "parallelism": 8,
+        "searchParallelism": 1,
+        "progressIntervalMilliseconds": 2000,
+        "maxPlies": 300,
+        "openingRandomPlies": 4,
+        "openingTopK": 3,
+        "openingScoreWindow": 120,
+        "cycleBreakScoreWindow": 10,
+        "seed": 12345,
+        "saveMoveSequences": true
+      },
+      "p1Strategy": {
+        "mode": "Free",
+        "deviationBudget": 0
+      },
+      "p2Strategy": {
+        "mode": "Free",
+        "deviationBudget": 0
+      }
+    }
+  ]
+}

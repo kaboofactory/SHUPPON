@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <AssemblyName>StarRunnerPrototype</AssemblyName>
+    <RootNamespace>StarRunnerPrototype</RootNamespace>
+    <Version>0.2.37.8</Version>
+    <AssemblyVersion>0.2.37.8</AssemblyVersion>
+    <FileVersion>0.2.37.8</FileVersion>
+    <InformationalVersion>0.2.37.8</InformationalVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="StarRunner.Core/**/*.cs" />
+    <Compile Remove="StarRunner.AI/**/*.cs" />
+    <ProjectReference Include="StarRunner.Core/StarRunner.Core.csproj" />
+    <ProjectReference Include="StarRunner.AI/StarRunner.AI.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,70 @@
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/TestResults/
+
+# Visual Studio / MSBuild user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper.user
+
+# NuGet and local package artifacts
+packages/
+*.nupkg
+*.snupkg
+project.assets.json
+project.packagespec.json
+*.nuget.g.props
+*.nuget.g.targets
+
+# Test and code-coverage output
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.trx
+
+# Runtime logs and local diagnostics
+*.log
+*.dmp
+*.stackdump
+
+# Local secrets and environment-specific configuration
+appsettings.Local.json
+appsettings.*.Local.json
+*.local.json
+.env
+.env.*
+!.env.example
+
+# Generated publish/package archives
+*.zip
+*.tar
+*.gz
+
+# OS-generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors and temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
